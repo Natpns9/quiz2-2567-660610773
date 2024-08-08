@@ -1,7 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import PostOwnner from "@/components/PostOwnner";
+import Reply from "@/components/Reply";
+import Comment from "@/components/Comment";
+
+
 
 export default function Home() {
+
   return (
     <div
       style={{ minHeight: "100vh", backgroundColor: "ghostwhite" }}
@@ -84,4 +90,5 @@ export default function Home() {
       </div>
     </div>
   );
+}
 }
